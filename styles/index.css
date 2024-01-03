@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #0a100d;
+  --secondary-color-yellow: #ead637;
+  --secondary-green: #33adab;
+  --secondary-gold: #caa129;
+  --secondary-green-light: #8fbebd;
+  --text-color: rgb(75 85 99);
+  --font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family) !important;
+  font-size: var(--font-size);
+  color: var(--text-color);
+}
