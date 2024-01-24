@@ -30,6 +30,10 @@ body {
 }
 
 /* Navbar */
+.navbar {
+  background: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
 #navbarNav .nav-link {
   color: var(--background-color);
 }
@@ -53,6 +57,10 @@ body {
   color: var(--text-color);
   background: var(--background-color);
   transition-duration: 300ms;
+}
+.navbar-scrolled {
+  background-color: rgba(10, 16, 13, 0.9);
+  color: var(--background-color);
 }
 /* navbar end */
 
@@ -106,7 +114,7 @@ body {
   font-size: 15px;
   font-weight: 600;
 }
-.color-cards .card{
+.color-cards .card {
   padding: 2rem;
 }
 .color-cards a:hover {
